@@ -56,6 +56,16 @@ The data flows through sensors on the vehicle, computational systems in the vehi
 
 # Code repositories
 
+|     Category     |     Resources                                                                                           |     Repo address                                                                                                   |
+|------------------|---------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------|
+|     Documents    |     Mapping vehicle calibration data and   results                                                      |     https://github.com/ivsg-psu/Hardware_MappingVanHardware_Calibration                                            |
+|                  |     Mapping vehicle set up information,   such as wiring layouts, physical locations of sensors, etc    |     https://github.com/ivsg-psu/Hardware_MappingVanHardware_HardwareSummary                                        |
+|        Code      |     Code to operate sensors on mapping   vehicle                                                        |     https://github.com/ivsg-psu/FieldDataCollection_DataCollectionProcedures_MappingVanROSNodes                    |
+|                  |     Code to parse raw data to raw data   database                                                       |     https://github.com/ivsg-psu/FieldDataCollection_DataCollectionProcedures_ParseRawDataToDatabase                |
+|                  |     Code to clean raw data and push into   cleaned-data database                                        |     https://github.com/ivsg-psu/FeatureExtraction_LaneDetection_LIDAR_Reflectivity_And_Geometry_Lane_Extraction    |
+|                  |     Code to associate cleaned data with   map(WIP)                                                      |     https://github.com/ivsg-psu/FieldDataCollection_DataCollectionProcedures_MapAssociation                        |
+|                  |     Code to merge individual maps(WIP)                                                                  |     https://github.com/ivsg-psu/FieldDataCollection_DataCollectionProcedures_MapMerge                              |
+
 # Equipment inventory
 We have received traffic objects from PennDOT as below.
 ![](./TrafficObjectsReceivedFromPennDOT.PNG)
