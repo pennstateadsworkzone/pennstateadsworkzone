@@ -51,10 +51,11 @@ The Automated Driving System Work Zone reduces abnormal vehicle behaviors improv
 # Data flow 
 The data flows through sensors on the vehicle, computational systems in the vehicle, hard drives, computational systems off-vehicle, local databases/servers, cloud service, and finally goes into applications such as autonomous vehicles, vehicle simulation such as CARLA, traffic simulation such as SUMO and other end users, shown as below.
 
-<img src ="https://github.com/pennstateadsworkzone/pennstateadsworkzone.github.io/blob/main/DataFlow.PNG" >
+![](./DataFlow.PNG)
 
 
 # Code repositories
+
 # Equipment inventory
 We have received traffic objects from PennDOT as below.
 ![](./TrafficObjectsReceivedFromPennDOT.PNG)
