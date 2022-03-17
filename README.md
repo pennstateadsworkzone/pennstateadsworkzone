@@ -60,13 +60,13 @@ Code repositories are hosted by IVSG as below.
 
 |     Category     |     Resources                                                                                           |     Repo address                                            |
 |------------------|---------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------|
-|     Documents    |     Mapping vehicle calibration data and   results                                                      |     https://github.com/ivsg-psu/Hardware_<br />MappingVanHardware_Calibration                                            |
-|                  |     Mapping vehicle set up information,   such as wiring layouts, physical locations of sensors, etc    |     https://github.com/ivsg-psu/Hardware_<br />MappingVanHardware_HardwareSummary                                        |
-|        Code      |     Code to operate sensors on mapping   vehicle                                                        |     https://github.com/ivsg-psu/FieldData<br />Collection_DataCollectionProcedures_MappingVanROSNodes                    |
-|                  |     Code to parse raw data to raw data   database                                                       |     https://github.com/ivsg-psu/FieldData<br />Collection_DataCollectionProcedures_ParseRawDataToDatabase                |
-|                  |     Code to clean raw data and push into   cleaned-data database                                        |     https://github.com/ivsg-psu/FeatureEx<br />traction_LaneDetection_LIDAR_Reflectivity_And_Geometry_Lane_Extraction    |
-|                  |     Code to associate cleaned data with   map(WIP)                                                      |     https://github.com/ivsg-psu/FieldData<br />Collection_DataCollectionProcedures_MapAssociation                        |
-|                  |     Code to merge individual maps(WIP)                                                                  |     https://github.com/ivsg-psu/FieldData<br />Collection_DataCollectionProcedures_MapMerge                              |
+|     Documents    |     Mapping vehicle calibration data and   results                                                      |     https://github.com/ivsg-psu/Hardware_MappingVanHardware_<br />Calibration                                            |
+|                  |     Mapping vehicle set up information,   such as wiring layouts, physical locations of sensors, etc    |     https://github.com/ivsg-psu/Hardware_MappingVanHardware_<br />HardwareSummary                                        |
+|        Code      |     Code to operate sensors on mapping   vehicle                                                        |     https://github.com/ivsg-psu/FieldDataCollection_DataColl<br />ectionProcedures_MappingVanROSNodes                    |
+|                  |     Code to parse raw data to raw data   database                                                       |     https://github.com/ivsg-psu/FieldDataCollection_DataColl<br />ectionProcedures_ParseRawDataToDatabase                |
+|                  |     Code to clean raw data and push into   cleaned-data database                                        |     https://github.com/ivsg-psu/FeatureExtraction_LaneDetect<br />ion_LIDAR_Reflectivity_And_Geometry_Lane_Extraction    |
+|                  |     Code to associate cleaned data with   map(WIP)                                                      |     https://github.com/ivsg-psu/FieldDataCollection_DataColl<br />ectionProcedures_MapAssociation                        |
+|                  |     Code to merge individual maps(WIP)                                                                  |     https://github.com/ivsg-psu/FieldDataCollection_DataColl<br />ectionProcedures_MapMerge                              |
 
 # Equipment inventory
 We have received traffic objects from PennDOT as below.
