@@ -58,7 +58,7 @@ The data flows through sensors on the vehicle, computational systems in the vehi
 Code repositories are hosted by IVSG as below.
 
 
-|     Category     |     Resources                                                                                           |     Repo address                                                                                                   |
+|     Category     |     Resources                                                                                           |     Repo address                                    |
 |------------------|---------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------|
 |     Documents    |     Mapping vehicle calibration data and   results                                                      |     https://github.com/ivsg-psu/Hardware_MappingVanHardware_Calibration                                            |
 |                  |     Mapping vehicle set up information,   such as wiring layouts, physical locations of sensors, etc    |     https://github.com/ivsg-psu/Hardware_MappingVanHardware_HardwareSummary                                        |
