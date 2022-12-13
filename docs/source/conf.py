@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 #
-# Crawler documentation build configuration file, created by
-# sphinx-quickstart on Mon Dec 12 23:33:29 2022.
+# ads-test documentation build configuration file, created by
+# sphinx-quickstart on Tue Dec 13 18:29:26 2022.
 #
 # This file is execfile()d with the current directory set to its
 # containing dir.
@@ -17,9 +17,9 @@
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 #
-import os
-import sys
-sys.path.insert(0, os.path.abspath('.'))
+# import os
+# import sys
+# sys.path.insert(0, os.path.abspath('.'))
 import sphinx_rtd_theme
 
 # -- General configuration ------------------------------------------------
@@ -46,9 +46,9 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = 'Crawler'
-copyright = '2022, Wushuang'
-author = 'Wushuang'
+project = 'ads-test'
+copyright = '2022, wushuang'
+author = 'wushuang'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -69,7 +69,7 @@ language = None
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
 # This patterns also effect to html_static_path and html_extra_path
-exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
+exclude_patterns = []
 
 # The name of the Pygments (syntax highlighting) style to use.
 pygments_style = 'sphinx'
@@ -83,8 +83,8 @@ todo_include_todos = False
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-html_theme = 'sphinx_rtd_theme'
-html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
+html_theme = "sphinx_rtd_theme"
+
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
 # documentation.
@@ -112,7 +112,7 @@ html_sidebars = {
 # -- Options for HTMLHelp output ------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'Crawlerdoc'
+htmlhelp_basename = 'ads-testdoc'
 
 
 # -- Options for LaTeX output ---------------------------------------------
@@ -139,8 +139,8 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'Crawler.tex', 'Crawler Documentation',
-     'Wushuang', 'manual'),
+    (master_doc, 'ads-test.tex', 'ads-test Documentation',
+     'wushuang', 'manual'),
 ]
 
 
@@ -149,7 +149,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'crawler', 'Crawler Documentation',
+    (master_doc, 'ads-test', 'ads-test Documentation',
      [author], 1)
 ]
 
@@ -160,8 +160,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'Crawler', 'Crawler Documentation',
-     author, 'Crawler', 'One line description of project.',
+    (master_doc, 'ads-test', 'ads-test Documentation',
+     author, 'ads-test', 'One line description of project.',
      'Miscellaneous'),
 ]
 
